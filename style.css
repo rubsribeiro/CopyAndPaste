@@ -1,0 +1,100 @@
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.buttons{
+   font-weight: bold; 
+   font-size: 12px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.btn-copy {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.btnPaste {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius:20px;
+    border-style: none;
+}
+
+.btn-copy:hover {
+    transform: scale(1.1);
+    background-color: purple;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btnPaste:hover {
+    transform: scale(1.1);
+    background-color: purple;
+    border-style: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-boxes {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.type {
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.paste {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.icone-git {
+    width: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.icone-linkedin {
+    width: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}  
+
